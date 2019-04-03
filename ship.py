@@ -20,7 +20,7 @@ class Ship():
 
     def update(self):
         """根据标志调整飞船位置"""
-        if self.moving:
+        if self.moving_right:
             self.rect.centerx += 1
 
     def blitme(self):

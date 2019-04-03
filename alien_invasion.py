@@ -24,6 +24,7 @@ def run_game():
         # for event in pygame.event.get():
         #     if event.type == pygame.QUIT:
         #         sys.exit()
+        ship.update()
 
         gf.update_screen(ai_settings, screen, ship)
         # #每次循环时都重绘屏幕
